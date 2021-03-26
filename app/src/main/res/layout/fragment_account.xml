@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/account_icon"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Email Address"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Car id"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:id="@+id/tvCar"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_button"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_save_modification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="40dp"
+        android:text="Save modification"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/button_log_out"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        android:text="Log Out" />
+
+
+</LinearLayout>

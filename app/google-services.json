@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "764086680720",
+    "firebase_url": "https://parkingapp-351ca.firebaseio.com",
+    "project_id": "parkingapp-351ca",
+    "storage_bucket": "parkingapp-351ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764086680720:android:47df97bb93dd0a8fc16c15",
+        "android_client_info": {
+          "package_name": "com.luciantig.parkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764086680720-v0gli0odmqn7b4nuacr5s8n0kn8kg0vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXpasehhvK7g5t67KuS-kb63V4H16k6R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764086680720-v0gli0odmqn7b4nuacr5s8n0kn8kg0vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

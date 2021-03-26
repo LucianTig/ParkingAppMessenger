@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParkingApp</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="google_maps_key">AIzaSyAg6dTCaKcQQ9zQ_PyoERzcsWxhzE44qlY</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+</resources>
